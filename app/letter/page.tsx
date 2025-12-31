@@ -27,8 +27,9 @@ export default function LetterPage() {
       style={{
         minHeight: "100vh",
         display: "grid",
-        placeItems: "center",
+        placeItems: "start center",
         padding: 24,
+        paddingTop: 100, 
         background:
           "radial-gradient(1200px 600px at 20% 10%, rgba(255,120,170,.20), transparent 55%), radial-gradient(900px 500px at 90% 30%, rgba(120,190,255,.22), transparent 52%), #0b0f17",
         color: "white",

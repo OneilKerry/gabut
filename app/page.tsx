@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main style={{ minHeight: "100vh", display: "grid", placeItems: "center", padding: 24 }}>
       <div style={{ textAlign: "center", maxWidth: 520 }}>
-        <h1 style={{ fontSize: 40, marginBottom: 12 }}>📩 Surat Digital</h1>
+        <h1 style={{ fontSize: 40, marginBottom: 12 }}>📩 Surat</h1>
         <p style={{ opacity: 0.8, marginBottom: 20 }}>
           Klik untuk membuka amplop dan membaca pesan.
         </p>

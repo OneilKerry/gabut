@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <main style={{ minHeight: "100vh", display: "grid", placeItems: "center", padding: 24 }}>
       <div style={{ textAlign: "center", maxWidth: 520 }}>
-        <h1 style={{ fontSize: 40, marginBottom: 12 }}>📩 Surat</h1>
+        <h1 style={{ fontSize: 40, marginBottom: 12 }}>Hai kira" ini apa yaa?</h1>
         <p style={{ opacity: 0.8, marginBottom: 20 }}>
-          Klik untuk membuka amplop dan membaca pesan.
+          Penasaran???
         </p>
         <Link
           href="/letter"
@@ -19,7 +19,7 @@ export default function Home() {
             backdropFilter: "blur(8px)",
           }}
         >
-          Buka Amplop →
+          Klik ini
         </Link>
       </div>
     </main>

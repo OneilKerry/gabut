@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const repoName = "Surat";
+const repoName = "gabut";
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {

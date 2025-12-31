@@ -89,9 +89,9 @@ export default function Envelope({
           }}
         >
           <div style={{ padding: 16, color: "#111" }}>
-            <div style={{ fontWeight: 700, marginBottom: 8 }}>Surat untuk mu</div>
+            <div style={{ fontWeight: 700, marginBottom: 8 }}>Surat ini untuk mu</div>
             <div style={{ fontSize: 12, opacity: 0.65, lineHeight: 1.6 }}>
-              “Akhirnya, kebahagiaan itu datang…”
+              “Akhirnya, kebahagiaan yang hanya milikku datang…”
             </div>
           </div>
         </motion.div>

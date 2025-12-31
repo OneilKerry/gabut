@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+## Surat Digital (contoh)
+
+Ada contoh sederhana fitur "Surat Digital" di folder `app/`:
+
+- Buka http://localhost:3000 → klik **Buka Amplop**
+- Ada dua variasi: **kode** (`/open` + `/letter?code=...`) dan **tanpa kode** (animasi amplop di `/letter`).
+- Untuk versi tanpa kode, cukup buka `/letter` dan klik amplop untuk menampilkan pesan.
+
+Untuk mengubah isi surat pada versi tanpa kode, edit `app/letter/page.tsx` (variabel `message`).
+
+Untuk versi dengan kode, edit `content/letter.md` dan `.env.local`.
